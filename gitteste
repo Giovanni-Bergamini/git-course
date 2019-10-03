@@ -1,1 +1,39 @@
 este arquivo será utilizado para testar o GIT e GITHUB
+
+agora anotarei alguns comandos de git:
+
+git innit (inicializa repositório)
+
+git add arquivo (adiciona arquivo em repositório)
+
+git status (confere o status de cada arquivo dentro do repositório)
+
+git commit arquivo -m "mensagem" (faz o commit do arquivo no repositório)
+
+git log (exibe informações do commit, tal como Hash do commit, autor e data)
+
+(git log pode ter --decorate ||| e ter --author="nome do autor")
+
+git shortlog (mostra autoress e seus commits c/ comentário) (-sn mostra quantia de commits e nome do autor)
+
+git log --graph (mostra de forma mais gráfica as informações do log)
+
+git show códigoHashDoArquivo 
+
+git diff (mostra alterações feitas no arquivo |||||| SEMPRE UTILIZAR ANTES DE FAZER COMMIT) (--name-only  mastra apenas o nome do arquivo alterado)
+
+git commit -am "comentário" (se o arquivo já existir no git)
+
+git checkout arquivo (retoma estado do ultimo commit (caso esteja com erro, é retornado a versão antes do erro))
+
+git reset HEAD arquivo (caso arquivo já esteja adicionado e deseja retornar -> tirar da fila do stage)
+
+git reset:
+
+--soft: apenas remove commit (está pronto para dar outro)
+
+--mixed: (retorna p modifyed)
+
+--hard: (ignora existência deste commit e tudo feito nele)
+
+ex: git reset --soft hashcode (retorna a um antes do commit que deu ee deseja retornar)
