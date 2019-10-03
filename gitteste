@@ -37,3 +37,5 @@ git reset:
 --hard: (ignora existência deste commit e tudo feito nele)
 
 ex: git reset --soft hashcode (retorna a um antes do commit que deu ee deseja retornar)
+
+estou alterando esse arquivo
